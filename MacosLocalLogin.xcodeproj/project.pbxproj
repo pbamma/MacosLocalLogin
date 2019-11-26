@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD544815238DC25C00A749ED /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD544814238DC25C00A749ED /* KeychainManager.swift */; };
+		CD54481A238DC71E00A749ED /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD544818238DC71E00A749ED /* BaseViewController.swift */; };
+		CD54481F238DD2A100A749ED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54481E238DD2A100A749ED /* Constants.swift */; };
+		CD544820238DDB8A00A749ED /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD544814238DC25C00A749ED /* KeychainManager.swift */; };
+		CD92F665238B427900B41169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD92F664238B427900B41169 /* AppDelegate.swift */; };
+		CD92F667238B427900B41169 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD92F666238B427900B41169 /* MainViewController.swift */; };
+		CD92F669238B427C00B41169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD92F668238B427C00B41169 /* Assets.xcassets */; };
+		CD92F66C238B427C00B41169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD92F66A238B427C00B41169 /* Main.storyboard */; };
+		CD92F678238B427C00B41169 /* MacosLocalLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD92F677238B427C00B41169 /* MacosLocalLoginTests.swift */; };
+		CD9E23A4238C5C32004B7CB6 /* CreatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E23A3238C5C32004B7CB6 /* CreatePasswordViewController.swift */; };
+		CD9E23A7238C6B09004B7CB6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E23A5238C6B09004B7CB6 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD92F674238B427C00B41169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD92F659238B427900B41169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD92F660238B427900B41169;
+			remoteInfo = MacosLocalLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD544814238DC25C00A749ED /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		CD544818238DC71E00A749ED /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CD54481E238DD2A100A749ED /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD544821238DE1E400A749ED /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CD92F661238B427900B41169 /* MacosLocalLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacosLocalLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD92F664238B427900B41169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD92F666238B427900B41169 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CD92F668238B427C00B41169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD92F66B238B427C00B41169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD92F66D238B427C00B41169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD92F66E238B427C00B41169 /* MacosLocalLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacosLocalLogin.entitlements; sourceTree = "<group>"; };
+		CD92F673238B427C00B41169 /* MacosLocalLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacosLocalLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD92F677238B427C00B41169 /* MacosLocalLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacosLocalLoginTests.swift; sourceTree = "<group>"; };
+		CD92F679238B427C00B41169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9E23A3238C5C32004B7CB6 /* CreatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewController.swift; sourceTree = "<group>"; };
+		CD9E23A5238C6B09004B7CB6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD92F65E238B427900B41169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD92F670238B427C00B41169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD92F658238B427900B41169 = {
+			isa = PBXGroup;
+			children = (
+				CD544821238DE1E400A749ED /* README.md */,
+				CD92F663238B427900B41169 /* MacosLocalLogin */,
+				CD92F676238B427C00B41169 /* MacosLocalLoginTests */,
+				CD92F662238B427900B41169 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD92F662238B427900B41169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD92F661238B427900B41169 /* MacosLocalLogin.app */,
+				CD92F673238B427C00B41169 /* MacosLocalLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD92F663238B427900B41169 /* MacosLocalLogin */ = {
+			isa = PBXGroup;
+			children = (
+				CD92F664238B427900B41169 /* AppDelegate.swift */,
+				CD54481E238DD2A100A749ED /* Constants.swift */,
+				CD544818238DC71E00A749ED /* BaseViewController.swift */,
+				CD92F666238B427900B41169 /* MainViewController.swift */,
+				CD9E23A3238C5C32004B7CB6 /* CreatePasswordViewController.swift */,
+				CD9E23A5238C6B09004B7CB6 /* LoginViewController.swift */,
+				CD544814238DC25C00A749ED /* KeychainManager.swift */,
+				CD92F668238B427C00B41169 /* Assets.xcassets */,
+				CD92F66A238B427C00B41169 /* Main.storyboard */,
+				CD92F66D238B427C00B41169 /* Info.plist */,
+				CD92F66E238B427C00B41169 /* MacosLocalLogin.entitlements */,
+			);
+			path = MacosLocalLogin;
+			sourceTree = "<group>";
+		};
+		CD92F676238B427C00B41169 /* MacosLocalLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD92F677238B427C00B41169 /* MacosLocalLoginTests.swift */,
+				CD92F679238B427C00B41169 /* Info.plist */,
+			);
+			path = MacosLocalLoginTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD92F660238B427900B41169 /* MacosLocalLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD92F67C238B427C00B41169 /* Build configuration list for PBXNativeTarget "MacosLocalLogin" */;
+			buildPhases = (
+				CD92F65D238B427900B41169 /* Sources */,
+				CD92F65E238B427900B41169 /* Frameworks */,
+				CD92F65F238B427900B41169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacosLocalLogin;
+			productName = MacosLocalLogin;
+			productReference = CD92F661238B427900B41169 /* MacosLocalLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD92F672238B427C00B41169 /* MacosLocalLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD92F67F238B427C00B41169 /* Build configuration list for PBXNativeTarget "MacosLocalLoginTests" */;
+			buildPhases = (
+				CD92F66F238B427C00B41169 /* Sources */,
+				CD92F670238B427C00B41169 /* Frameworks */,
+				CD92F671238B427C00B41169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD92F675238B427C00B41169 /* PBXTargetDependency */,
+			);
+			name = MacosLocalLoginTests;
+			productName = MacosLocalLoginTests;
+			productReference = CD92F673238B427C00B41169 /* MacosLocalLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD92F659238B427900B41169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Philip Starner";
+				TargetAttributes = {
+					CD92F660238B427900B41169 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					CD92F672238B427C00B41169 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = CD92F660238B427900B41169;
+					};
+				};
+			};
+			buildConfigurationList = CD92F65C238B427900B41169 /* Build configuration list for PBXProject "MacosLocalLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD92F658238B427900B41169;
+			productRefGroup = CD92F662238B427900B41169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD92F660238B427900B41169 /* MacosLocalLogin */,
+				CD92F672238B427C00B41169 /* MacosLocalLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD92F65F238B427900B41169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD92F669238B427C00B41169 /* Assets.xcassets in Resources */,
+				CD92F66C238B427C00B41169 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD92F671238B427C00B41169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD92F65D238B427900B41169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9E23A7238C6B09004B7CB6 /* LoginViewController.swift in Sources */,
+				CD544815238DC25C00A749ED /* KeychainManager.swift in Sources */,
+				CD92F667238B427900B41169 /* MainViewController.swift in Sources */,
+				CD9E23A4238C5C32004B7CB6 /* CreatePasswordViewController.swift in Sources */,
+				CD54481F238DD2A100A749ED /* Constants.swift in Sources */,
+				CD92F665238B427900B41169 /* AppDelegate.swift in Sources */,
+				CD54481A238DC71E00A749ED /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD92F66F238B427C00B41169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD92F678238B427C00B41169 /* MacosLocalLoginTests.swift in Sources */,
+				CD544820238DDB8A00A749ED /* KeychainManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD92F675238B427C00B41169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD92F660238B427900B41169 /* MacosLocalLogin */;
+			targetProxy = CD92F674238B427C00B41169 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD92F66A238B427C00B41169 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD92F66B238B427C00B41169 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD92F67A238B427C00B41169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD92F67B238B427C00B41169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CD92F67D238B427C00B41169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacosLocalLogin/MacosLocalLogin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9T7792CGMD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MacosLocalLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.philipstarner.MacosLocalLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD92F67E238B427C00B41169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacosLocalLogin/MacosLocalLogin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9T7792CGMD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MacosLocalLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.philipstarner.MacosLocalLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CD92F680238B427C00B41169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9T7792CGMD;
+				INFOPLIST_FILE = MacosLocalLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.philipstarner.MacosLocalLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacosLocalLogin.app/Contents/MacOS/MacosLocalLogin";
+			};
+			name = Debug;
+		};
+		CD92F681238B427C00B41169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9T7792CGMD;
+				INFOPLIST_FILE = MacosLocalLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.philipstarner.MacosLocalLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacosLocalLogin.app/Contents/MacOS/MacosLocalLogin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD92F65C238B427900B41169 /* Build configuration list for PBXProject "MacosLocalLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD92F67A238B427C00B41169 /* Debug */,
+				CD92F67B238B427C00B41169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD92F67C238B427C00B41169 /* Build configuration list for PBXNativeTarget "MacosLocalLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD92F67D238B427C00B41169 /* Debug */,
+				CD92F67E238B427C00B41169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD92F67F238B427C00B41169 /* Build configuration list for PBXNativeTarget "MacosLocalLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD92F680238B427C00B41169 /* Debug */,
+				CD92F681238B427C00B41169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD92F659238B427900B41169 /* Project object */;
+}
